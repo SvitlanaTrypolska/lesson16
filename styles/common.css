@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+body {
+  font-size: 16px;
+  background-color: rgb(76, 20, 219);
+}

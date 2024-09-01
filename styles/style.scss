@@ -1,0 +1,38 @@
+@import "common.scss";
+$font-stack: Montserrat, sans-serif;
+body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  max-width: 100%;
+  padding:0 16px ;
+  margin: 0 auto;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+
+.header {
+  padding-top: 50px;
+  .container {
+  @extend .flex;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+.nav {
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
